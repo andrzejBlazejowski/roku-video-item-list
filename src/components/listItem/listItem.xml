@@ -9,6 +9,7 @@
     </interface>
     
 	<script type="text/brightscript" uri="pkg:/components/listItem/listItem.brs" />
+    <script type="text/brightscript" uri="pkg:/components/utils.brs"/>
 	<children>
         <Poster
             id="image"
