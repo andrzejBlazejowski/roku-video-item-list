@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<component name="listItem" extends="Group"> 
+<component name="listItem" extends="Group">
+    <interface>
+        <field id="image" type="uri"/>
+        <field id="type" type="string"/>
+        <field id="duration" type="string"/> <!-- optional -->
+        <field id="durationMiliseconds" type="integer"/> <!-- optional -->
+        <field id="name" type="string"/>
+    </interface>
+    
 	<script type="text/brightscript" uri="pkg:/components/listItem/listItem.brs" />
+    <script type="text/brightscript" uri="pkg:/components/utils.brs"/>
 	<children>
         <Poster
             id="image"
@@ -18,11 +27,6 @@
         />
 		<Label id="nameLabel"
 			text="loream ipsum4"
-			horizAlign="center"
-			vertAlign="center"
-        />
-		<Label id="descriptionLabel"
-			text="loream ipsum2"
 			horizAlign="center"
 			vertAlign="center"
         />
