@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="listItem" extends="Group"> 
+	<script type="text/brightscript" uri="pkg:/components/listItem/listItem.brs" />
+	<children>
+        <Poster
+            id="image"
+            uri="pkg:/images/channel-poster_sd.png"
+            width="100"
+            height="100"
+            translation="[0,0]"
+        />
+        <Poster
+            id="typeIcon"
+            uri="pkg:/images/channel-poster_sd.png"
+            width="20"
+            height="20"
+            translation="[0,0]"
+        />
+		<Label id="nameLabel"
+			text="loream ipsum4"
+			horizAlign="center"
+			vertAlign="center"
+        />
+		<Label id="descriptionLabel"
+			text="loream ipsum2"
+			horizAlign="center"
+			vertAlign="center"
+        />
+		<Label id="durationLabel"
+			text="loream ipsum3"
+			horizAlign="center"
+			vertAlign="center"
+        />
+    </children>
+</component>
