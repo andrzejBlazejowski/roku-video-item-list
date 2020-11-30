@@ -3,8 +3,7 @@
     <interface>
         <field id="image" type="uri"/>
         <field id="type" type="string"/>
-        <field id="duration" type="string"/> <!-- optional -->
-        <field id="durationMiliseconds" type="integer"/> <!-- optional -->
+        <field id="duration" type="string"/>
         <field id="name" type="string"/>
     </interface>
     
